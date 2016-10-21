@@ -11,6 +11,9 @@ void sum(int numberOne,int numberTwo,int numberThree);
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
+        
+        //variable declaration
+        
         int numberOne,numberTwo,numberThree;
         
         printf("\nEnter first number:");
@@ -24,8 +27,10 @@ int main(int argc, const char * argv[]) {
     return 0;
     
 }
+//function
 void sum(int numberOne,int numberTwo,int numberThree)
 {
+    
     int sum;
     sum=numberOne+numberTwo+numberThree;
     printf("Sum of three numbers%d,%d,%d is %d\n",numberOne,numberTwo,numberThree,sum);
